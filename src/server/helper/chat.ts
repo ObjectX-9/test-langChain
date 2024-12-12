@@ -23,6 +23,7 @@ const chat = new ChatOpenAI({
     baseURL: process.env.OPEN_API_BASE_URL,
     // fetch: customFetch,
   },
+  // verbose: true
 });
 
 export default chat;
